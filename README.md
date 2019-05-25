@@ -56,7 +56,7 @@ You can use any dataset , just enure that each class has its own indiviudal fold
 
 ## About training 
 
-I trained the model for 200 epochs on google colab. You can run the notebook on your local system too , just comment out the code where google dive is mounted and ensure you give proper training path to the test and train image data.
+I trained the model for 200 epochs on google colab. You can run the notebook on your local system too , just comment out the code where google dive is mounted and ensure you give proper path to the test and train image data.
 
 Here is what my loss looked like after 200 epochs:
 
