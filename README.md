@@ -3,7 +3,9 @@ Implementation of Siamese Neural Networks with contrastive loss for similarity l
 
 ## Siamese Neural Networks
 
-Siamese networks are a special type of neural network architecture. Instead of a model learning to classify its inputs, the neural networks learns to differentiate between two inputs. It learns the similarity between them.
+A siamese neural network consists of twin networks which accept distinct inputs but are joined by an loss function at the top. Both 
+the networks have their weights tied which ensures that two extremely images could not possibly be mapped to different locations in the 
+feature space.
 
 ### Architecture
 
